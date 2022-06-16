@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{414E3F98-0EDD-4B47-AD0F-B707C55F7824}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{BDC64872-3D37-478A-987E-AC85B8497A85}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageShopSolar" Key="{75806060-9E2E-4FEB-B63A-6382BC0B994A}" MultiVersion="True">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http*://*smartbear.com/*/smartstore/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="asideOffcanvasCart" Key="{879BB391-C585-41D5-9A16-9A1CA3EA360E}" ExtendedFind="True">
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Aside" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="offcanvas-cart" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelOccCart" Key="{37D3ABD7-780F-44B5-BB57-9DD976DEED3D}" ExtendedFind="True">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="occ-cart" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelOffcanvasCartFooter" Key="{A10836F3-D5C9-4BA2-B57A-6D9189B2E57A}">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelOffcanvasCartFooterRow" Key="{098741A2-38AA-4A96-9AB9-52837189A321}">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelOffcanvasCartFooterCol" Key="{9804B355-70D3-4996-8E99-BF210229C193}">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="0" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Subtotal_Text" Key="{D1578E68-B44E-4A41-8E5E-6CA8EB311DF6}" ExtendedFind="True">
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="linkRemove" Key="{E2371F26-FBAC-4720-99F0-E15040D3ED97}" ExtendedFind="True">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Link" />
+															</Property>
+															<Property Name="title">
+																<Value Value="Remove" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelPage" Key="{16FAE25C-7D57-4B22-AE74-243B14D1ADEF}" ExtendedFind="True">
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="page" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="sectionContent" Key="{10BA476C-0F37-4546-9557-05AE1DA989E4}" ExtendedFind="True">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Section" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="content" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelContentBody" Key="{1C8FB2F9-6479-4DF2-9221-01BBF03E7D37}" ExtendedFind="True">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="content-body" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelPageProductDetailsPage" Key="{C2ACB96A-5822-4DCC-8B98-7F27BA47E39E}" ExtendedFind="True">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="articlePdPageBody" Key="{C3A9F057-A6A8-4676-A4BD-ED6674FB5AE3}">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Article" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="0" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="formPdForm" Key="{1D01A7D1-2F8F-452F-B08B-E67EFE0F5E42}" ExtendedFind="True">
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Form" />
+																					</Property>
+																					<Property Name="idStr">
+																						<Value Value="pd-form" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="sectionRow" Key="{B62D1EDA-DE0D-4B1B-8CC4-C665AE0AAB76}">
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Section" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="0" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="asideCol" Key="{5E2B930A-1A61-4EC2-9986-F5014F50F9A1}">
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Aside" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="0" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="buttonAddToCart" Key="{7CD7A8A4-B0BF-4869-B478-435AD336D6FF}" ExtendedFind="True">
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Link" />
+																											</Property>
+																											<Property Name="contentText">
+																												<Value Value="Add to cart" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageShop" Key="{2785687D-C10C-42F8-BC2A-5760D74B030E}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http*://*smartbear.com/*/smartstore*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{83063896-74A4-460C-A0B7-7A3CA4E1B5FB}" ExtendedFind="True">
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Header" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="header" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="formInstasearchForm" Key="{6E5A32C9-6279-4B05-9F45-E2D49FFABE8A}" ExtendedFind="True">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Form" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="SearchButton" Key="{C38EE398-9CAC-4CEE-B0F4-F6BB7689987F}" ExtendedFind="True">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Button" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="textboxInstasearch" Key="{5A1DC04D-A3B0-4B12-B578-A029E64DAC48}" ExtendedFind="True">
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="instasearch" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageShopSearchResult" Key="{A3E6A4ED-9EDD-4A19-8D1B-E22F0B9A3C73}" MultiVersion="True">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http*://*smartbear.com/*/smartstore/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{C1984CD8-502A-431E-AE5F-7D4A4700C4B1}" ExtendedFind="True">
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Section" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="content" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelArtlist" Key="{60A227A3-9E28-4F2B-9944-4EC3CB77B449}" ExtendedFind="True">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="artlist_" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="articleArtActive" Key="{90106F01-AE34-42DC-B674-7709CDC90CE4}">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Article" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="imageSolar" Key="{7741B143-9E1C-48D3-B191-A681C6D2E0C3}" ExtendedFind="True">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Image" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+			<Child Name="Mobile" Key="{4B2C01D8-7C6F-4C37-B2DA-BD02FECDC071}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Mobile" />
+					</Property>
+				</Properties>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Browser" Owner="{BDC64872-3D37-478A-987E-AC85B8497A85}">
+			<Child Name="ProductPage" Owner="{75806060-9E2E-4FEB-B63A-6382BC0B994A}">
+				<Child Name="Cart" Owner="{879BB391-C585-41D5-9A16-9A1CA3EA360E}">
+					<Child Name="RemoveFromCartLink" Owner="{E2371F26-FBAC-4720-99F0-E15040D3ED97}" />
+					<Child Name="Subtotal" Owner="{D1578E68-B44E-4A41-8E5E-6CA8EB311DF6}" />
+				</Child>
+				<Child Name="AddToCartButton" Owner="{7CD7A8A4-B0BF-4869-B478-435AD336D6FF}" />
+			</Child>
+			<Child Name="FrontPage" Owner="{2785687D-C10C-42F8-BC2A-5760D74B030E}">
+				<Child Name="FrontPageSearchBox" Owner="{5A1DC04D-A3B0-4B12-B578-A029E64DAC48}" />
+				<Child Name="SearchButton" Owner="{C38EE398-9CAC-4CEE-B0F4-F6BB7689987F}" />
+			</Child>
+			<Child Name="SearchPage" Owner="{A3E6A4ED-9EDD-4A19-8D1B-E22F0B9A3C73}">
+				<Child Name="FoundProduct" Owner="{7741B143-9E1C-48D3-B191-A681C6D2E0C3}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

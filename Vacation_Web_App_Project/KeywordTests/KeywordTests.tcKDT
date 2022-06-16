@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Templates">
+			<child name="Test_Template" key="{5E900260-8FBF-47BF-B7FA-92AA9CC1BB56}" path="Test_Template.tcKDTest" />
+			<child name="Module_Template" key="{EBBF5D3A-98A3-46B4-9783-2B8B68820DCD}" path="Module_Template.tcKDTest" />
+		</folder>
+		<folder name="Common">
+			<child name="Mod_Open_Browser_Blank_Page" key="{62DF6094-A789-47E0-9A98-87D0C0AAE009}" path="Mod_Open_Browser_Blank_Page.tcKDTest" />
+		</folder>
+		<child name="Mod_Close_Browser" key="{F2A4FD8B-3F1C-42B6-B195-114812647662}" path="Mod_Close_Browser.tcKDTest" />
+	</children>
+</Root>

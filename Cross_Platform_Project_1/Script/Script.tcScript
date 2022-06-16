@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="SimpleTest_Samples" key="{01B2063B-D2A6-4726-9093-FC9CE277A11C}" path="SimpleTest_Samples.js" />
+		<child name="ParallelTest_Samples" key="{45A698C7-0C3B-4B01-A3AA-7B1478D8398A}" path="ParallelTest_Samples.js" />
+	</children>
+</Root>

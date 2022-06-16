@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{BD97FF0F-E160-49C8-B72A-8D8B2D094E1C}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{44ED1C0A-FFE6-415A-A411-98CAB5985F17}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageShop" Key="{D246DA5B-96C4-4475-8ED1-A9186639F506}">
+								<Image FileName="1542978874" Left="8" Top="112" Right="1550" Bottom="732" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://services.smartbear.com/samples/TestComplete15/smartstore" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxInstasearch" Key="{32BE8D56-3672-4A8D-AF9F-183A35ACD826}">
+										<Image FileName="1542978874" Left="473" Top="180" Right="1017" Bottom="223" />
+										<Selectors>
+											<Selector>
+												<Value Value="#instasearch" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;instasearch&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/div[2]/div/div/div/div[2]/form/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTissotTTouchExpertSolar" Key="{DC353B38-7CE8-4B53-A65D-4029877F293A}">
+										<Image FileName="1797240256" Left="227" Top="273" Right="1016" Bottom="329" />
+										<Selectors>
+											<Selector>
+												<Value Value=".instasearch-hit" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;instasearch-drop&apos;]/div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageShopTissotTTouchExpertSolar" Key="{E0F67126-C1A9-4B84-B135-315E104BDB07}">
+								<Image FileName="197512501" Left="8" Top="111" Right="1928" Bottom="999" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://services.smartbear.com/samples/TestComplete15/smartstore/tissot-t-touch-expert-solar" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonAddToCart" Key="{A37EB0B7-2E0C-42F0-8F62-4274A1E9BA61}">
+										<Image FileName="-765017551" Left="1204" Top="397" Right="1499" Bottom="448" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(.,&apos;Add to cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".btn-lg" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]/section/aside/div[4]/div[3]/div/div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[6]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="asideOffcanvasCart" Key="{68DAED7F-F69B-46B4-BD8F-7D13251EB823}">
+										<Image FileName="1294949347" Left="1448" Top="79" Right="1928" Bottom="1048" />
+										<Selectors>
+											<Selector>
+												<Value Value="#offcanvas-cart" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside[@id=&apos;offcanvas-cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside[2]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="buttonRemoveFromCart" Key="{2422E678-C3C2-407A-8494-8C2406133AE2}">
+												<Image FileName="673584823" Left="1879" Top="362" Right="1917" Bottom="400" />
+												<Selectors>
+													<Selector>
+														<Value Value=".btn-to-danger" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;occ-cart&apos;]/div/div[2]/div/div[2]/div[3]/a[2]" />
+													</Selector>
+													<Selector>
+														<Value Value="(//a[contains(@href, &apos;#&apos;)])[28]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]/a[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="labelCartTotal" Key="{57B6E6B2-930C-4093-A07A-FA1524D7C45D}">
+												<Image FileName="673584823" Left="1464" Top="956" Right="1638" Bottom="982" />
+												<Selectors>
+													<Selector>
+														<Value Value=".sub-total" />
+													</Selector>
+													<Selector>
+														<Value Value="(//div[contains(.,&apos;$969.00 excl tax&apos;)])[37]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;occ-cart&apos;]/div[2]/div/div/div/div[2]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div/div/div[2]/div/div/div/div[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{44ED1C0A-FFE6-415A-A411-98CAB5985F17}">
+			<Child Name="FrontPage" Owner="{D246DA5B-96C4-4475-8ED1-A9186639F506}">
+				<Child Name="FrontPageSearchBox" Owner="{32BE8D56-3672-4A8D-AF9F-183A35ACD826}" />
+				<Child Name="FrontPageSearchHit" Owner="{DC353B38-7CE8-4B53-A65D-4029877F293A}" />
+			</Child>
+			<Child Name="ProductPage" Owner="{E0F67126-C1A9-4B84-B135-315E104BDB07}">
+				<Child Name="AddToCartButton" Owner="{A37EB0B7-2E0C-42F0-8F62-4274A1E9BA61}" />
+				<Child Name="Cart" Owner="{68DAED7F-F69B-46B4-BD8F-7D13251EB823}">
+					<Child Name="RemoveFromCartLink" Owner="{2422E678-C3C2-407A-8494-8C2406133AE2}" />
+					<Child Name="Subtotal" Owner="{57B6E6B2-930C-4093-A07A-FA1524D7C45D}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

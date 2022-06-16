@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="SimpleTest_Remote_Sample" key="{24B82E82-AC52-4AEA-A507-92191A104639}" path="SimpleTest_Remote_Sample.tcKDTest" />
+		<child name="SimpleTest_Local_Sample" key="{9EA6ADF3-0F71-4D4B-A3CC-DEF49E72BDA2}" path="SimpleTest_Local_Sample.tcKDTest" />
+	</children>
+</Root>
