@@ -7,7 +7,7 @@
 		</folder>
 		<folder name="Common">
 			<child name="Mod_Open_Browser_Blank_Page" key="{62DF6094-A789-47E0-9A98-87D0C0AAE009}" path="Mod_Open_Browser_Blank_Page.tcKDTest" />
+			<child name="Mod_Close_Browser" key="{F2A4FD8B-3F1C-42B6-B195-114812647662}" path="Mod_Close_Browser.tcKDTest" />
 		</folder>
-		<child name="Mod_Close_Browser" key="{F2A4FD8B-3F1C-42B6-B195-114812647662}" path="Mod_Close_Browser.tcKDTest" />
 	</children>
 </Root>
