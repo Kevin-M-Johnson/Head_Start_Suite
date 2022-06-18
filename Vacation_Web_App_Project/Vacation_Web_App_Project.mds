@@ -11,11 +11,6 @@
 			<testItem name="Templates" key="{A3E834AF-FBD2-426E-884E-AE3AEE60A056}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Module_Template" key="{4EE3A249-0806-4CCC-8BF0-01F307667DBF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EBBF5D3A-98A3-46B4-9783-2B8B68820DCD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
 					<testItem name="Test_Template" key="{ACD0A7E0-C07C-4F5B-A75D-71210FEBED8B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5E900260-8FBF-47BF-B7FA-92AA9CC1BB56}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
