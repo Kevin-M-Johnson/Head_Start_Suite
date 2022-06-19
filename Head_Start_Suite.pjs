@@ -3,11 +3,6 @@
 	<children>
 		<folder name="Template_Projects">
 			<child name="Alpha_Baseline_Project_1" key="{3CA4E8B5-539A-4886-8710-D871B9C6C6CF}" path="Alpha_Baseline_Project_1\Alpha_Baseline_Project_1.mds" />
-			<child name="BDD_Project_1" key="{2FC7EE70-22D1-4906-8C08-6726375F520B}" path="BDD_Project_1\BDD_Project_1.mds" />
-			<child name="Desktop_Project_1" key="{403B2E5B-7CB7-466A-9FD0-01988C2258B4}" path="Desktop_Project_1\Desktop_Project_1.mds" />
-			<child name="Cross_Platform_Project_1" key="{2C655098-BEA1-49A1-8A50-22EC825AEB22}" path="Cross_Platform_Project_1\Cross_Platform_Project_1.mds" />
-			<child name="Web_Project_1" key="{8FF7B16A-4C20-4B9B-858C-188C71C17D75}" path="Web_Project_1\Web_Project_1.mds" />
-			<child name="Mobile_Project_1" key="{ADC283D9-720F-4533-A2A2-A7E4A92771EC}" path="Mobile_Project_1\Mobile_Project_1.mds" />
 		</folder>
 		<folder name="AUT_Projects">
 			<child name="Bearstore_Web_App_Project_1" key="{D7B81185-6C89-4EEE-8C2D-C2C4406B1A72}" path="Bearstore_Web_App_Project_1\Bearstore_Web_App_Project_1.mds" />
@@ -16,6 +11,7 @@
 		</folder>
 		<folder name="Utility_Projects">
 			<child name="Utility_Project_1" key="{11774A11-15ED-4EC6-90DC-8DD55C30C2A6}" path="Utility_Project_1\Utility_Project_1.mds" />
+			<child name="Browser_Utilities_1" key="{31452752-7AB4-43FD-A92F-B84E62622560}" path="Browser_Utilities_1\Browser_Utilities_1.mds" />
 		</folder>
 	</children>
 	<testItems key="{746E2B81-9116-449C-BD7E-87D672B7CACE}">
@@ -25,11 +21,7 @@
 			<testItem key="{1C60CC0D-CE3D-44B7-BC9B-4A9C25D592AB}" enabled="True" timeout="0" stopOnError="False" description="" />
 			<testItem key="{CD1B24DF-8DDF-44CC-8BEB-DADA78A26D0A}" enabled="True" timeout="0" stopOnError="False" description="" />
 			<testItem key="{11774A11-15ED-4EC6-90DC-8DD55C30C2A6}" enabled="True" timeout="0" stopOnError="False" description="" />
-			<testItem key="{403B2E5B-7CB7-466A-9FD0-01988C2258B4}" enabled="False" timeout="0" stopOnError="False" description="" />
-			<testItem key="{ADC283D9-720F-4533-A2A2-A7E4A92771EC}" enabled="False" timeout="0" stopOnError="False" description="" />
-			<testItem key="{8FF7B16A-4C20-4B9B-858C-188C71C17D75}" enabled="False" timeout="0" stopOnError="False" description="" />
-			<testItem key="{2C655098-BEA1-49A1-8A50-22EC825AEB22}" enabled="False" timeout="0" stopOnError="False" description="" />
-			<testItem key="{2FC7EE70-22D1-4906-8C08-6726375F520B}" enabled="False" timeout="0" stopOnError="False" description="" />
+			<testItem key="{31452752-7AB4-43FD-A92F-B84E62622560}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />
