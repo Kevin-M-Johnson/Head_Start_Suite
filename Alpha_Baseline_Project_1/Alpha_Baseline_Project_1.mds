@@ -1,10 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<folder name="Data_Files">
 			<child name="Contact_List.csv" key="{3F42E9A9-5899-4EA2-9252-E3814F6CDA20}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="Data_Files\Contact_List.csv" />
 			<child name="Contact_List.xlsx" key="{769ED5F5-48AC-4D14-8997-4D56776D153C}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="Data_Files\Contact_List.xlsx" />
-			<child name="README.md" key="{66056872-7DCE-4C1E-8CE9-0E794EF972FD}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="..\..\Smartbear_Demo_Suite\README.md" />
 		</folder>
 		<child name="Script" key="{1BDE7200-D661-4E40-9875-A6761D52B01E}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{B38FB249-9EAB-4A4F-9F11-CD5D17738D99}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
