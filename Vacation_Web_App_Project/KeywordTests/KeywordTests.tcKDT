@@ -8,6 +8,9 @@
 		<folder name="Common">
 			<child name="Mod_Open_Browser_Blank_Page" key="{62DF6094-A789-47E0-9A98-87D0C0AAE009}" path="Mod_Open_Browser_Blank_Page.tcKDTest" />
 			<child name="Mod_Close_Browser" key="{F2A4FD8B-3F1C-42B6-B195-114812647662}" path="Mod_Close_Browser.tcKDTest" />
+			<child name="Mod_Open_Brower_Chrome_RunOptions_Incognito" key="{179F669F-4FB2-45F5-95A5-898B97BFAD1F}" path="Mod_Open_Brower_Chrome_RunOptions_Incognito.tcKDTest" />
+			<child name="Test_Mod_Open_Close_Brower_Incognito" key="{45AE6B09-2985-4FD4-B5CD-51B2B5F5FAE0}" path="Test_Mod_Open_Close_Brower_Incognito.tcKDTest" />
+			<child name="Mod_Open_Brower_Chrome_Code_Snippet_Incognito" key="{289D8559-9CB2-40A6-B0AE-3B484E3CBCD0}" path="Mod_Open_Brower_Chrome_Code_Snippet_Incognito.tcKDTest" />
 		</folder>
 	</children>
 </Root>
