@@ -41,7 +41,7 @@
 							<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
 								<Parameter Name="RunOptions" DefVarType="8" VarType="8" ValueType="6" ValueValue="-private-window" />
 							</Parameters>
-							<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Browsers[&quot;Item&quot;](&quot;edge&quot;);" />
+							<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Browsers[&quot;Item&quot;](&quot;firefox&quot;);" />
 						</Data>
 					</Operation>
 					<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
@@ -66,31 +66,11 @@
 					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 							<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
-								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases[&quot;browser&quot;]" />
-								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="CommandLine" />
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases[&quot;browser&quot;][&quot;BrowserWindow&quot;]" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="WndCaption" />
 								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
-								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="-private-window" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Private Browsing" />
 								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
-							</Parameters>
-						</Data>
-					</Operation>
-					<Operation Type="{FB11A755-C568-41D9-8F05-1F7BDAF42205}">
-						<Data Description="Posts an image to the test log.">
-							<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
-								<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases[&quot;browser&quot;][&quot;BrowserWindow&quot;]" />
-								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Post picture of Bearstore Page" />
-								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="This is too allow post run confirmation of the Bearstore home page" />
-								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-									<Values IsEnum="True">
-										<Value Type="1" Value="100" Text="pmLowest" />
-										<Value Type="1" Value="200" Text="pmLower" />
-										<Value Type="1" Value="300" Text="pmNormal" />
-										<Value Type="1" Value="400" Text="pmHigher" />
-										<Value Type="1" Value="500" Text="pmHighest" />
-									</Values>
-								</Parameter>
-								<Parameter Name="Attrib" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogAtrribInformation" />
-								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 							</Parameters>
 						</Data>
 					</Operation>

@@ -37,7 +37,7 @@
 				<Data GroupName="Mod_Open_Brower_Firefox_Code_Snippet_Private_Window" />
 				<Children>
 					<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
-						<Data Description="Executes the specified code snippet." LangId="{90813F19-086D-4670-83BC-DB51386DC224}" CodeExpression="Browsers[&quot;Item&quot;](&quot;edge&quot;)[&quot;RunOptions&quot;] = &quot;-private-window&quot;;" />
+						<Data Description="Executes the specified code snippet." LangId="{90813F19-086D-4670-83BC-DB51386DC224}" CodeExpression="Browsers[&quot;Item&quot;](&quot;firefox&quot;)[&quot;RunOptions&quot;] = &quot;-private-window&quot;;" />
 					</Operation>
 					<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
 						<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="firefox">
