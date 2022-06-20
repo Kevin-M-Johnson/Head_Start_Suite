@@ -21,6 +21,16 @@
 			<testItem name="Common" key="{B883D8AC-F1DE-46FD-9FA2-BE86251EFF9F}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
+					<testItem name="Test_Purge_Chrome_History" key="{3C1FBE77-DCC7-4A82-8C1F-241F370DA52A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DBDFC626-A9AE-4A40-BD24-ACA7F0822ED1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Test_Purge_Edge_History" key="{BAD30F51-EF6F-4D50-9DCC-8CA808DC613B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{871A2A0C-9EE9-41CB-A0DD-5C09E4E99B76}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
 					<testItem name="Test_Mod_Open_Close_Brower_Incognito" key="{FCDEAFD1-E7C9-4FB4-BFF3-82CC79847032}" group="False" parallel="False" enabled="True" testMoniker="KDT\{45AE6B09-2985-4FD4-B5CD-51B2B5F5FAE0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />

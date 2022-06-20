@@ -20,7 +20,6 @@
 						</Properties>
 						<Children>
 							<Child Name="pageShop" Key="{4AF0DB86-0DF8-4D08-814D-D7FF67995A00}">
-								<Image FileName="298674401" Left="8" Top="111" Right="1928" Bottom="1007" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -31,7 +30,6 @@
 								</Properties>
 								<Children>
 									<Child Name="header" Key="{9D408F6B-6196-4E42-9F39-1FC72D5F8D62}">
-										<Image FileName="298674401" Left="8" Top="111" Right="1911" Bottom="290" />
 										<Selectors>
 											<Selector>
 												<Value Value="#header" />
@@ -45,7 +43,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="link" Key="{453C59AB-12EA-4CAC-8E2C-FBBB84775591}">
-										<Image FileName="298674401" Left="403" Top="180" Right="653" Bottom="225" />
 										<Selectors>
 											<Selector>
 												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
@@ -59,7 +56,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="imageYourStoreName" Key="{00396360-60BF-49BC-AC5F-88785CC1810D}">
-										<Image FileName="298674401" Left="403" Top="180" Right="653" Bottom="225" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;Your store name&apos;]" />
@@ -76,7 +72,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="panelContentWrapper" Key="{0755EAC2-4545-4D14-98EC-56D869836A78}">
-										<Image FileName="344262716" Left="8" Top="-1651" Right="1911" Bottom="1877" />
 										<Selectors>
 											<Selector>
 												<Value Value="#content-wrapper" />
@@ -120,7 +115,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="sectionContent" Key="{A1417EBD-3D5F-48C1-B84F-24C3EB7340A7}">
-										<Image FileName="-1416474279" Left="390" Top="-1651" Right="1530" Bottom="1877" />
 										<Selectors>
 											<Selector>
 												<Value Value="#content" />
@@ -140,7 +134,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeWelcomeToOurStore" Key="{FCF5B333-291A-4116-8561-6084CCFB7493}">
-										<Image FileName="-1416474279" Left="405" Top="-1651" Right="1515" Bottom="-1613" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[.=&apos;Welcome to our store&apos;]" />
@@ -157,7 +150,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="linkLogIn" Key="{C561B009-DDEC-49D3-9F32-11332EB77DCF}">
-										<Image FileName="1312481582" Left="1420" Top="103" Right="1507" Bottom="155" />
 										<Selectors>
 											<Selector>
 												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
@@ -174,7 +166,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeLogIn" Key="{C0A0ACC0-E6D3-4FC8-B761-E9991DF35034}">
-										<Image FileName="1312481582" Left="1448" Top="120" Right="1496" Bottom="137" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Log in&apos;]" />
@@ -188,7 +179,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="linkJackpower001" Key="{59217EF3-161C-47E8-9348-5F80D93536D3}">
-										<Image FileName="957345084" Left="1351" Top="103" Right="1507" Bottom="155" />
 										<Selectors>
 											<Selector>
 												<Value Value="//a[contains(., &apos;JackPower001&apos;)]" />
@@ -205,7 +195,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeJackpower001" Key="{55B4BBEB-7BF1-4B8F-A70C-ADBD149732FC}">
-										<Image FileName="957345084" Left="1379" Top="120" Right="1478" Bottom="137" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;JackPower001&apos;]" />
@@ -222,7 +211,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="linkLogOut" Key="{33314F6F-0D7C-482A-ADC1-1165CCF01129}">
-										<Image FileName="-30836102" Left="1342" Top="303" Right="1506" Bottom="342" />
 										<Selectors>
 											<Selector>
 												<Value Value="//a[contains(., &apos;Log out&apos;)]" />
@@ -230,7 +218,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeLogOut" Key="{DC26B411-3CA3-4203-999F-E0B0095BDC35}">
-										<Image FileName="-30836102" Left="1389" Top="312" Right="1440" Bottom="332" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Log out&apos;]" />
@@ -631,7 +618,6 @@
 								</Children>
 							</Child>
 							<Child Name="pageRegister" Key="{1655A722-3D3E-4ABC-B949-ACD70584AFDC}">
-								<Image FileName="1255387572" Left="8" Top="111" Right="1928" Bottom="1007" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -642,7 +628,6 @@
 								</Properties>
 								<Children>
 									<Child Name="sectionContent" Key="{66A97130-9BCA-43ED-A6EF-CE454BFCE20B}">
-										<Image FileName="1255387572" Left="390" Top="314" Right="1530" Bottom="469" />
 										<Selectors>
 											<Selector>
 												<Value Value="#content" />
@@ -662,7 +647,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeYourRegistrationComplete" Key="{73C43464-D44F-4713-A83C-06823DAF376B}">
-										<Image FileName="1255387572" Left="405" Top="386" Right="1515" Bottom="409" />
 										<Selectors>
 											<Selector>
 												<Value Value="//p[contains(text(), &apos;Your registration completed&apos;)]" />
@@ -679,7 +663,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="formRegisterForm" Key="{64CF496E-C85F-4D49-A8F6-D305EF651FF3}">
-										<Image FileName="-980429074" Left="397" Top="306" Right="1507" Bottom="1353" />
 										<Selectors>
 											<Selector>
 												<Value Value="#register-form" />
@@ -702,7 +685,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="fieldsetYourPersonalDetailsundef" Key="{2DEEB65F-7F58-458F-AD80-C7295E2B48EB}">
-										<Image FileName="-980429074" Left="397" Top="364" Right="1127" Bottom="770" />
 										<Selectors>
 											<Selector>
 												<Value Value="//fieldset[contains(., &apos;Your Personal Details&apos;)]" />
@@ -710,7 +692,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textboxFirstName" Key="{F8B0B34C-BBC4-47D5-ACAC-0F4D15214A0C}">
-										<Image FileName="-980429074" Left="587" Top="467" Right="1127" Bottom="512" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;First name&apos;]/@for)]" />
@@ -727,7 +708,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textboxLastName" Key="{45E22317-C48E-4846-9D8C-722706D4A9AF}">
-										<Image FileName="470816414" Left="587" Top="528" Right="1127" Bottom="573" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Last name&apos;]/@for)]" />
@@ -744,7 +724,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="selectDateOfBirth" Key="{B61F9FA1-0D64-456E-BAD8-DE238491666C}">
-										<Image FileName="-986418557" Left="587" Top="588" Right="762" Bottom="633" />
 										<Selectors>
 											<Selector>
 												<Value Value="//select[@id=(//label[.=&apos;Date of birth&apos;]/@for)]" />
@@ -758,7 +737,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="selectDateofbirthmonth" Key="{0C04F6BA-A4AB-4163-A45E-0A393333F1FF}">
-										<Image FileName="4074878" Left="769" Top="588" Right="944" Bottom="633" />
 										<Selectors>
 											<Selector>
 												<Value Value="#DateOfBirthMonth" />
@@ -778,7 +756,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="selectDateofbirthyear" Key="{0652659C-570F-46AA-AAD2-BA764795984D}">
-										<Image FileName="-1198072937" Left="952" Top="588" Right="1127" Bottom="633" />
 										<Selectors>
 											<Selector>
 												<Value Value="#DateOfBirthYear" />
@@ -798,7 +775,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="emailinputEmail" Key="{11295CBD-BCBD-4FFD-A3CA-8F8553A5797E}">
-										<Image FileName="1202091166" Left="587" Top="649" Right="1127" Bottom="694" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Email&apos;]/@for)]" />
@@ -815,7 +791,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textboxUsername" Key="{3A5398D2-B17B-4713-BFA0-5F99E0B49F32}">
-										<Image FileName="1001882886" Left="587" Top="709" Right="1127" Bottom="754" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Username&apos;]/@for)]" />
@@ -832,7 +807,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="fieldsetYourPasswordundefined" Key="{8EB104B6-5146-48BE-841F-77E9A74FB117}">
-										<Image FileName="-300741861" Left="397" Top="802" Right="1127" Bottom="966" />
 										<Selectors>
 											<Selector>
 												<Value Value="//fieldset[contains(., &apos;Your Password&apos;)]" />
@@ -840,7 +814,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="passwordboxPassword" Key="{C9B17851-F5C3-4C48-B058-380AA89CD14D}">
-										<Image FileName="-300741861" Left="587" Top="845" Right="1127" Bottom="890" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
@@ -857,7 +830,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="passwordboxConfirmPassword" Key="{301DD38F-4598-415B-8C0C-1E1D63B3D61F}">
-										<Image FileName="1683054773" Left="587" Top="906" Right="1127" Bottom="951" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Confirm password&apos;]/@for)]" />
@@ -874,7 +846,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="fieldsetCompanyDetailsundefined" Key="{F9A9C1EB-942C-4423-907B-54D4A0C82E26}">
-										<Image FileName="-1399014130" Left="397" Top="598" Right="1127" Bottom="702" />
 										<Selectors>
 											<Selector>
 												<Value Value="//fieldset[contains(., &apos;Company Details&apos;)]" />
@@ -882,7 +853,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textboxCompanyName" Key="{247B8973-CF28-442A-B417-07F24076F421}">
-										<Image FileName="-1399014130" Left="587" Top="641" Right="1127" Bottom="686" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Company name&apos;]/@for)]" />
@@ -899,7 +869,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="fieldsetOptionsundefined" Key="{8BA990A6-0F79-4C6A-AFAB-687479160E29}">
-										<Image FileName="1109566861" Left="397" Top="734" Right="1127" Bottom="816" />
 										<Selectors>
 											<Selector>
 												<Value Value="//fieldset[contains(., &apos;Options&apos;)]" />
@@ -907,7 +876,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="checkboxIWouldLikeToSubscribeToT" Key="{C34FF454-DF45-4FB4-8844-5872F12F0DEC}">
-										<Image FileName="1677381844" Left="397" Top="782" Right="410" Bottom="795" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[contains(.,&apos;I would like to subscribe to the newsletter. I agree to the . Unsubscription is possible at any time.&apos;)]/@for)]" />
@@ -921,7 +889,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="buttonRegisterButton" Key="{DAC053A7-7C5B-47DD-AD80-B38DC6900AF3}">
-										<Image FileName="-92117552" Left="397" Top="886" Right="506" Bottom="937" />
 										<Selectors>
 											<Selector>
 												<Value Value="#register-button" />
@@ -947,7 +914,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="linkContinue" Key="{D18CE54F-4C9D-4953-B852-C8DB9A46A417}">
-										<Image FileName="330076629" Left="397" Top="417" Right="493" Bottom="462" />
 										<Selectors>
 											<Selector>
 												<Value Value="//a[contains(text(), &apos;Continue&apos;)]" />
@@ -964,7 +930,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="checkboxYesIVeReadThe" Key="{33E3176F-4FD9-4779-BF26-358A5B76179C}">
-										<Image FileName="-1892365095" Left="405" Top="599" Right="418" Bottom="612" />
 										<Selectors>
 											<Selector>
 												<Value Value="//input[@id=(//label[contains(.,&quot;Yes I&apos;ve read the privacy terms and agree that my data given by me can be stored electronically. My data will thereby only be used to process my inquiry.&quot;)]/@for)]" />
@@ -1022,6 +987,32 @@
 										<Value Value="edge://settings/privacy" />
 									</Property>
 								</Properties>
+							</Child>
+							<Child Name="pageShopMozillaFirefox" Key="{12EE7FF8-CB0A-41B8-B0DA-29DC6F138531}">
+								<Image FileName="-1705194225" Left="6" Top="0" Right="1290" Bottom="932" />
+								<TypeInfo Item0="{FCD98CD2-2FD7-4B02-9C68-6656D0405F3C}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://browser/content/browser.xhtml" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="tabbandTabstoolbar" Key="{3532BEED-211C-4EB9-8458-10CF1734B2A9}">
+										<Image FileName="-1705194225" Left="6" Top="0" Right="1290" Bottom="44" />
+										<TypeInfo Item0="{6D19B16F-34B2-4E3D-9F5E-4F15A97F742D}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TabBand" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="TabsToolbar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 						</Children>
 					</Child>
@@ -1124,6 +1115,9 @@
 			<Child Name="pagePrivacyChrome" Owner="{6BBA7B2D-B888-4243-88B8-16048E234092}" />
 			<Child Name="pageClearbrowserdataEdge" Owner="{F69A4EBC-12B0-448A-9596-4550A5982C0E}" />
 			<Child Name="pagePrivacyEdge" Owner="{53F46345-595F-4113-8E76-34158846A7A9}" />
+			<Child Name="pageShopMozillaFirefox" Owner="{12EE7FF8-CB0A-41B8-B0DA-29DC6F138531}">
+				<Child Name="tabbandTabstoolbar" Owner="{3532BEED-211C-4EB9-8458-10CF1734B2A9}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>
