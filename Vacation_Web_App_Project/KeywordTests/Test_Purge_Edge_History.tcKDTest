@@ -146,7 +146,6 @@
 												<Children>
 													<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 														<Data Description="Posts an information message to the test log." MessageType="0">
-															<CommonData Disabled="True" />
 															<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
 																<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Opened clear browser history window" />
 																<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
@@ -160,15 +159,37 @@
 																	</Values>
 																</Parameter>
 																<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-																<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases[&quot;browser&quot;][&quot;pageClearbrowserdataChrome&quot;]" />
+																<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases[&quot;browser&quot;][&quot;pageClearbrowserdataEdge&quot;]" />
 																<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 															</Parameters>
 														</Data>
 													</Operation>
+													<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
+														<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="edge">
+															<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="edge://settings/clearBrowserData" />
+																<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+															</Parameters>
+														</Data>
+													</Operation>
+													<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+														<Data Description="Maximizes the specified Window object." Action="Maximize">
+															<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;browser&quot;][&quot;BrowserWindow&quot;];" />
+														</Data>
+													</Operation>
 													<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 														<Data Description="Simulates one or several keypresses." Action="Keys">
+															<CommonData Disabled="True" />
 															<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
 																<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Enter]" />
+															</Parameters>
+															<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;browser&quot;][&quot;pageClearbrowserdataEdge&quot;];" />
+														</Data>
+													</Operation>
+													<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+														<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys" InvokeKind="-1">
+															<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+																<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="![Tab]![Tab]![Tab][Enter]" />
 															</Parameters>
 															<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;browser&quot;][&quot;pageClearbrowserdataEdge&quot;];" />
 														</Data>
@@ -176,8 +197,8 @@
 													<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 														<Data Description="Delays the test execution for the specified time period.">
 															<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
-																<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
-																<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Generic 1 Second Delay" />
+																<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+																<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Generic 5 Second Delay to allow history to clear" />
 															</Parameters>
 														</Data>
 													</Operation>

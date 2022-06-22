@@ -268,6 +268,45 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="formSearch" Key="{9553A6C5-29F1-4197-8D96-CD27C83024DC}">
+										<Image FileName="-245138507" Left="665" Top="180" Right="1195" Bottom="225" />
+										<TypeInfo Item0="{E467C5D8-2840-422F-AD26-457CC1D2324C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;instasearch-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxQ" Key="{C34307A5-146E-415A-A7BB-353966B7D938}">
+										<Image FileName="-245138507" Left="665" Top="180" Right="1195" Bottom="225" />
+										<TypeInfo Item0="{BA89FCA3-2105-498E-A6E4-AE65F4BA7387}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;instasearch-term&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{EECD8EDE-0329-4C9B-82F9-B09B7EE0F4A6}">
@@ -1167,6 +1206,9 @@
 						<Child Name="navMenubarMyAccount" Owner="{8088B5BD-1185-4BEE-BB8E-A98FD0F00680}">
 							<Child Name="linkLogIn2" Owner="{5931AF60-7834-4A0F-86D7-6A6B3FD47C13}" />
 						</Child>
+					</Child>
+					<Child Name="formSearch" Owner="{9553A6C5-29F1-4197-8D96-CD27C83024DC}">
+						<Child Name="textboxQ" Owner="{C34307A5-146E-415A-A7BB-353966B7D938}" />
 					</Child>
 				</Child>
 				<Child Name="panelContentWrapper" Owner="{0755EAC2-4545-4D14-98EC-56D869836A78}" />

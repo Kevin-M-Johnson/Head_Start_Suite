@@ -17,6 +17,7 @@
 			<child name="Mod_Open_Brower_Firefox_RunOptions_Private_Window" key="{D0C58660-C97B-4BC3-A1B4-326B2FA3BB37}" path="Mod_Open_Brower_Firefox_RunOptions_Private_Window.tcKDTest" />
 			<child name="Test_Purge_Chrome_History" key="{DBDFC626-A9AE-4A40-BD24-ACA7F0822ED1}" path="Test_Purge_Chrome_History.tcKDTest" />
 			<child name="Test_Purge_Edge_History" key="{871A2A0C-9EE9-41CB-A0DD-5C09E4E99B76}" path="Test_Purge_Edge_History.tcKDTest" />
+			<child name="Test_Purge_Firefox_History" key="{B018DDD7-A978-4C25-9B8D-874E248A181D}" path="Test_Purge_Firefox_History.tcKDTest" />
 		</folder>
 		<child name="GeneralEvents_OnStartTest" key="{6876DEFC-3DB0-4B60-B52A-67F1B7DD1B7D}" path="GeneralEvents_OnStartTest.tcKDTest" />
 	</children>

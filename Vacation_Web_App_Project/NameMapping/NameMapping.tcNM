@@ -1014,6 +1014,147 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageNewtab" Key="{B25BE6C5-E5B8-42B9-9F73-F79E8475774E}">
+								<Image FileName="-1741402177" Left="0" Top="103" Right="1920" Bottom="999" />
+								<TypeInfo Item0="{0D008B2A-391B-488E-86F4-09607C204F39}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://newtab/" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageClearAllHistory" Key="{B36A4270-68B9-460E-A392-2BA63279442D}">
+								<Image FileName="-1212208219" Left="764" Top="117" Right="1172" Bottom="559" />
+								<TypeInfo Item0="{FCD98CD2-2FD7-4B02-9C68-6656D0405F3C}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="chrome://browser/content/sanitize.xhtml" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ulwindowSanitizedialog" Key="{55302447-2755-4CB2-983B-3C7353D3375B}">
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="XULWindow" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="SanitizeDialog" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="dialog" Key="{CFA15718-A698-42AB-998F-D9E4439CB50D}">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="dialog" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="groupbox" Key="{22FC0FD5-DBE7-40D5-8152-C00802E0DC43}">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="groupbox" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="hbox" Key="{95A25DFC-B53E-4348-AFD2-D59E9E3F975F}">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="hbox" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="vbox" Key="{AA731F69-6C76-4D5D-9745-F65A05FF0F8E}">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="vbox" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="checkboxCache" Key="{BFF6BA9D-F2EC-4F44-B838-CD989918B53A}">
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="checkbox" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="hboxCheckboxLabelBox" Key="{8F59D297-BEB9-40FF-BF96-B22AE75F1793}">
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="hbox" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="labelCheckboxLabel" Key="{335CB94D-9DF6-48F6-8CAE-E496DB3F9F8A}">
+																								<TypeInfo Item0="{F6371716-8FE0-4F52-AEE4-11F3F5666218}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="label" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="shadowroot" Key="{FCE61ADC-47B3-448C-B0C0-35D39BDCEF1B}" ExtendedFind="True">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ShadowRoot" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="hboxDialogButtonBox" Key="{C7D5D56A-7AE7-4838-B620-19255D38BA4D}">
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="hbox" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="buttonOk" Key="{60797C04-02CD-426E-94B7-BBDEFFC5524C}">
+																		<TypeInfo Item0="{F6371716-8FE0-4F52-AEE4-11F3F5666218}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="button" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="OK" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -1117,6 +1258,13 @@
 			<Child Name="pagePrivacyEdge" Owner="{53F46345-595F-4113-8E76-34158846A7A9}" />
 			<Child Name="pageShopMozillaFirefox" Owner="{12EE7FF8-CB0A-41B8-B0DA-29DC6F138531}">
 				<Child Name="tabbandTabstoolbar" Owner="{3532BEED-211C-4EB9-8458-10CF1734B2A9}" />
+			</Child>
+			<Child Name="pageNewtab" Owner="{B25BE6C5-E5B8-42B9-9F73-F79E8475774E}" />
+			<Child Name="pageClearAllHistory" Owner="{B36A4270-68B9-460E-A392-2BA63279442D}">
+				<Child Name="labelCheckboxLabel" Owner="{335CB94D-9DF6-48F6-8CAE-E496DB3F9F8A}" />
+				<Child Name="shadowroot" Owner="{FCE61ADC-47B3-448C-B0C0-35D39BDCEF1B}">
+					<Child Name="buttonOk" Owner="{60797C04-02CD-426E-94B7-BBDEFFC5524C}" />
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>
