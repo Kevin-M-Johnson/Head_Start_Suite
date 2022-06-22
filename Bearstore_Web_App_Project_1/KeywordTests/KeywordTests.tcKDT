@@ -16,6 +16,7 @@
 			<child name="Mod_Open_Brower_Chrome_Incognito" key="{99D22201-7288-482A-A7FA-71502E0CD160}" path="Mod_Open_Brower_Chrome_Incognito.tcKDTest" />
 			<child name="Test_Open_Brower_Chrome_Incognito" key="{EDF29591-EA8D-4DE8-A0F8-A96A7C9FBF9E}" path="Test_Open_Brower_Chrome_Incognito.tcKDTest" />
 			<child name="Test_Open_Brower_Edge_Private" key="{72E67966-E19A-4703-95A7-3E0A9E86A92E}" path="Test_Open_Brower_Edge_Private.tcKDTest" />
+			<child name="Test_My_New" key="{B57908C3-F346-4E86-B4DC-55B773086179}" path="Test_My_New.tcKDTest" />
 		</folder>
 		<folder name="GeneralEvents">
 			<child name="GeneralEvents_OnStartTest" key="{E1230F69-6011-42FE-BDE6-DF22D2BC94FF}" path="GeneralEvents_OnStartTest.tcKDTest" />

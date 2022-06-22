@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<folder name="Data_Files">
@@ -45,16 +45,6 @@
 					<testItem name="Browser_Utilities" key="{91989610-C516-40A2-BE07-1123C5A8D50A}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="T_Purge_Chrome_History" key="{C0D15AE3-641E-4850-8AB6-BAD8FEA1BFFB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{951A3558-73D3-4861-8D92-D35530CAC7DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
-							<testItem name="T_Purge_Edge_History" key="{55484B9B-1DB8-471A-B515-EE4B17431CBA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4C71C635-B293-49B1-AF31-9251498E0069}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="CBT" />
-								<children />
-							</testItem>
 							<testItem name="Terminate_Chrome" key="{FCF3D091-6693-414A-A703-E5AD7431D015}" group="False" parallel="False" enabled="True" testMoniker="KDT\{577940A4-CC9F-4BC3-834F-9B8AF25B360D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<environments activeCloud="CBT" />

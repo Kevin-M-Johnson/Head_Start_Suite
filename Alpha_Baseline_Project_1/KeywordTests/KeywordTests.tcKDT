@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<folder name="Bearstore_Common">
@@ -27,8 +27,6 @@
 			<child name="Terminate_Firefox" key="{A870E3D2-2B7F-4CBC-AF0B-92114D58B599}" path="Terminate_Firefox.tcKDTest" />
 			<child name="Terminate_All_Browsers" key="{BAE9D34E-F15B-4C35-9976-FBE6F4A3DB3F}" path="Terminate_All_Browsers.tcKDTest" />
 			<child name="Open_Browsers_and_Delete_History" key="{8FBBC9E0-5D67-4984-BE22-599428A2D4EE}" path="Open_Browsers_and_Delete_History.tcKDTest" />
-			<child name="T_Purge_Chrome_History" key="{951A3558-73D3-4861-8D92-D35530CAC7DD}" path="T_Purge_Chrome_History.tcKDTest" />
-			<child name="T_Purge_Edge_History" key="{4C71C635-B293-49B1-AF31-9251498E0069}" path="T_Purge_Edge_History.tcKDTest" />
 		</folder>
 	</children>
 </Root>

@@ -1,0 +1,83 @@
+﻿function Test_Purge_Chrome_History()
+{
+  //Replaces the current indicator text with the specified one.
+  Indicator["PushText"]("Test_Purge_Chrome_History");
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log["AppendFolder"]("Test_Purge_Chrome_History", "This is to clear the browser cache and history of the Chrome Browser", pmNormal, Project["Variables"]["LogAtrribTestTitle"]);
+  //The beginning of the Test_Purge_Chrome_History group
+  //The beginning of the Clear Browser group
+  //Iterates through the specified browsers.
+  var BrowserItems, i;
+  BrowserItems = new Array(1);
+  BrowserItems[0] = Browsers["Item"]("chrome");
+  for(i = 0; i < BrowserItems["length"]; i++)
+  {
+    BrowserItems[i]["Run"]("about:blank");
+    //The beginning of the Open the Clear History Dialog group
+    //Delays the test execution for the specified time period.
+    Delay(5000, "Generic Delay");
+    //Maximizes the specified Window object.
+    Aliases["browser"]["BrowserWindow"]["Maximize"]();
+    //Posts an information message to the test log.
+    Log["Message"]("Browser Name = " + Aliases["browser"]["Name"] + " :Version = " + aqConvert["VarToStr"](Aliases["browser"]["FileVersionInfo"]) + " :Process Type = " + Aliases["browser"]["ProcessType"], "");
+    //Simulates one or several keypresses.
+    Aliases["browser"]["BrowserWindow"]["Keys"]("^![Del]");
+    //Posts an information message to the test log.
+    Log["Message"]("The previous step should have opened the Clear All History Window", "");
+    //Posts an information message to the test log.
+    Log["Message"]("Browser Name = " + Aliases["browser"]["Name"] + " :Version = " + aqConvert["VarToStr"](Aliases["browser"]["FileVersionInfo"]) + " :Process Type = " + Aliases["browser"]["ProcessType"], "", pmNormal, Project["Variables"]["LogAtrribInformation"]);
+    //The end of the Open the Clear History Dialog group
+    //The beginning of the Purge History Routine By Browser group
+    //Checks whether the Chrome browser is currently being used for testing.
+    if((Browsers["CurrentBrowser"]["Family"] == btChrome))
+    {
+      //Delays the test execution for the specified time period.
+      Delay(5000, "Added delay to allow clearn browser history in Chrome to open up");
+      //Posts an information message to the test log.
+      Log["Message"]("Opened clear browser history window", "", pmNormal, undefined, Aliases["browser"]["pageClearbrowserdataChrome"]);
+      //This step is disabled as it does not dismiss the window by pressing the enter button on the Clear Data button
+      //Simulates one or several keypresses.
+      //Aliases["browser"]["pageClearbrowserdataChrome"]["Keys"]("[Enter]");
+      //These steps send Tab commands through the form and send enter when it reaches the Clear Data button
+      //**** The number of tabs differs based on Chrome version and open Advanced tab
+      //**** Prior to execution the browser should be opened and the advanced tab, and desired clear values are selected
+      //
+      //The beginning of the Dismiss steps based on tabbing through form group
+      if(Aliases["browser"]["FileVersionInfo"] == "59.0.3071.86")
+      {
+        //Simulates one or several keypresses.
+        Aliases["browser"]["pageSettingsClearbrowserdata"]["Keys"]("[Enter]");
+      }
+      if(Aliases["browser"]["FileVersionInfo"] == "58.0.3029.110")
+      {
+        //Simulates one or several keypresses.
+        Aliases["browser"]["pageSettingsClearbrowserdata"]["Keys"]("[Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Enter]");
+      }
+      else
+      {
+        //Simulates one or several keypresses.
+        Aliases["browser"]["pageClearbrowserdataChrome"]["Keys"]("[Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Enter]");
+      }
+      //The end of the Dismiss steps based on tabbing through form group
+      //Delays the test execution for the specified time period.
+      Delay(5000, "Generic 5 Second Delay");
+      //Posts an information message to the test log.
+      Log["Message"]("Take a screenshot of the browser, should be on the pagePrivacy (cache cleared)", "", pmNormal, undefined, Aliases["browser"]["pagePrivacyChrome"]);
+    }
+    //The end of the Purge History Routine By Browser group
+    //The beginning of the Close the Browser group
+    //Delays the test execution for the specified time period.
+    Delay(5000, "5 Second Delay to allow browser to quite down");
+    //Closes the process by sending the WM_CLOSE message to its main window.
+    Aliases["browser"]["Close"]();
+    //Delays the test execution for the specified time period.
+    Delay(5000, "5 Second Delay to allow browser to close");
+    //The end of the Close the Browser group
+  }
+  //The end of the Clear Browser group
+  //The end of the Test_Purge_Chrome_History group
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log["PopLogFolder"]();
+  //Restores the previous indicator text.
+  Indicator["PopText"]();
+}
